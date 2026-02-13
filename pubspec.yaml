@@ -1,0 +1,35 @@
+name: drone
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # UI packages (MUST be in dependencies)
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  carousel_slider: ^5.0.0
+  provider: ^6.1.5+1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you use assets, uncomment and add folders:
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
